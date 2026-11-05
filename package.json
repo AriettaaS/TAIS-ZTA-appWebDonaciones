@@ -1,0 +1,11 @@
+{
+  "name": "tais-donaciones-seguras",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npm --prefix apps/web run dev",
+    "build": "npm --prefix apps/web run build && npm --prefix infrastructure run build",
+    "test": "npm --prefix infrastructure run test",
+    "lint": "npm --prefix apps/web run lint"
+  }
+}
